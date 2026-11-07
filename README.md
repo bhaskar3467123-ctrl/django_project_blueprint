@@ -1,19 +1,35 @@
 :wave: About Project
+
 This is my Django project. I created different website designs using Python, Django, HTML and CSS.
+
 :computer: Technologies Used
+
 Python
+
 Django
+
 HTML
+
 CSS
+
 SQLite3
+
 :open_file_folder: Project Modules
+
 Google
+
 Google Maps
+
 Google Photos
+
 YouTube
+
 :male-technologist: Created By
+
  Bhaskar reddy
+ 
 :star: Thank You for Visiting My Repository!
+
  google photos
 <img width="941" height="499" alt="Screenshot 2026-11-07 154634" src="https://github.com/user-attachments/assets/69057d74-f553-4833-b9d1-2efbd6c4fb72" />
 google maps
