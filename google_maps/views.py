@@ -8,3 +8,5 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("Hello, Django is working google_maps!")
+def map(request):
+    return render(request,'google_maps/maps.html')
