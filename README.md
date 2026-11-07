@@ -1,14 +1,12 @@
 # DJANGO PROJECT BLUEPRINT
 
 ## Backend
-- Framework: Django
+- Framework: Django6
 - Language: Python 3
 
 ## Frontend
 - Templates: HTML Fiie
-- Static :
-  CSS
-  ,js
+- Static : css,js
 
 ## Database
 - SQLite3
