@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google Photos</title>
+<link rel="icon" href="https://www.google.com/s2/favicons?domain=photos.google.com">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Roboto,Arial,sans-serif}
+.header{display:flex;align-items:center;justify-content:space-between;padding:12px 20px;border-bottom:1px solid #e0e0e0;position:sticky;top:0;background:#fff;z-index:10}
+.left{display:flex;align-items:center;gap:20px}
+.logo{font-size:22px;color:#5f6368;display:flex;align-items:center;gap:8px}
+.search{width:600px;height:44px;background:#f1f3f4;border-radius:8px;display:flex;align-items:center;padding:0 15px;gap:10px}
+.search input{border:0;background:transparent;width:100%;font-size:16px;outline:none}
+.right{display:flex;gap:20px;align-items:center;font-size:20px;color:#5f6368}
+.main{display:flex}
+.sidebar{width:250px;padding:20px 10px}
+.sidebar div{padding:12px 15px;border-radius:0 20px 20px 0;display:flex;gap:15px;cursor:pointer;color:#202124}
+.sidebar div.active{background:#e8f0fe;color:#1967d2;font-weight:500}
+.sidebar div:hover{background:#f1f3f4}
+.content{flex:1;padding:20px;background:#fff}
+.date{font-size:14px;color:#5f6368;margin:25px 0 10px 0;font-weight:500}
+.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:4px}
+.grid img{width:100%;height:180px;object-fit:cover;border-radius:4px;cursor:pointer}
+.grid img:hover{filter:brightness(0.9)}
+@media(max-width:900px){.grid{grid-template-columns:repeat(3,1fr)}.search{width:300px}.sidebar{display:none}}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="left">
+    <span style="font-size:20px">☰</span>
+    <div class="logo">🖼️ Google Photos</div>
+  </div>
+  <div class="search">🔍 <input type="text" placeholder="Search your photos"></div>
+  <div class="right">
+    <span>❔</span><span>⚙️</span><span>◫</span><span style="width:32px;height:32px;background:#8ab4f8;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:14px">B</span>
+  </div>
+</div>
+
+<div class="main">
+  <div class="sidebar">
+    <div class="active">🖼️ Photos</div>
+    <div>🔍 Explore</div>
+    <div>🔗 Sharing</div>
+    <div>❤️ Favorites</div>
+    <div>📷 Albums</div>
+    <div>🛠️ Utilities</div>
+    <div>🗄️ Archive</div>
+    <div>🗑️ Trash</div>
+    <hr style="margin:15px 0;border:0;border-top:1px solid #e0e0e0">
+    <div>☁️ Storage<br><small style="margin-left:0">15 GB used</small></div>
+  </div>
+
+  <div class="content">
+    <div class="date">Today</div>
+    <div class="grid">
+      <img src="https://picsum.photos/id/1015/300/300">
+      <img src="https://picsum.photos/id/1016/300/300">
+      <img src="https://picsum.photos/id/1018/300/300">
+      <img src="https://picsum.photos/id/1020/300/300">
+      <img src="https://picsum.photos/id/1024/300/300">
+    </div>
+
+    <div class="date">Yesterday - Nov 6, 2026</div>
+    <div class="grid">
+      <img src="https://picsum.photos/id/1025/300/300">
+      <img src="https://picsum.photos/id/1035/300/300">
+      <img src="https://picsum.photos/id/1039/300/300">
+      <img src="https://picsum.photos/id/1040/300/300">
+      <img src="https://picsum.photos/id/1041/300/300">
+      <img src="https://picsum.photos/id/1042/300/300">
+      <img src="https://picsum.photos/id/1043/300/300">
+      <img src="https://picsum.photos/id/1044/300/300">
+    </div>
+
+    <div class="date">Nov 4, 2026</div>
+    <div class="grid">
+      <img src="https://picsum.photos/id/1062/300/300">
+      <img src="https://picsum.photos/id/1069/300/300">
+      <img src="https://picsum.photos/id/1074/300/300">
+      <img src="https://picsum.photos/id/1080/300/300">
+      <img src="https://picsum.photos/id/1084/300/300">
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
