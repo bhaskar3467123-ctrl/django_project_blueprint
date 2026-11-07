@@ -7,8 +7,8 @@
 ## Frontend
 - Templates: HTML Fiie
 - Static :
-  .CSS
-  .js
+  CSS
+  ,js
 
 ## Database
 - SQLite3
